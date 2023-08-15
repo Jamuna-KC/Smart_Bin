@@ -62,4 +62,4 @@ def update_graph(num):
 if __name__ == '__main__':
     app.run_server(debug=True)
 
-# This simulation represents the fill-level of one Smart-Bin, further multiple Smart-Bin values can be simulated following the smae procedure that of S001
+# This simulation represents the fill-level of one Smart-Bin, further multiple Smart-Bin values can be simulated following the same procedure as that of Smart-bin S001
