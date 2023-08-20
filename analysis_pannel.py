@@ -12,9 +12,9 @@ def determine_bar_color(value):
             else:
                 return 'blue'
 # providing the credentials of the Firebase
-cred = credentials.Certificate('D:\jamu\Hackathon\smartbin-data-firebase-adminsdk-rbe43-5c744321e5.json')
+cred = credentials.Certificate('your_firebase_credentials_path.json')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://smartbin-data-default-rtdb.firebaseio.com/'
+    'databaseURL': 'your_firebase_url'
 })
 # running the dash app
 app = dash.Dash(__name__)
