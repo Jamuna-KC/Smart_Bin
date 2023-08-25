@@ -19,9 +19,9 @@ def determine_bar_color(value):
             else:
                 return 'blue'
 # providing the credentials of the Firebase
-cred = credentials.Certificate('D:\jamu\Hackathon\smartbin-data-firebase-adminsdk-rbe43-5c744321e5.json')
+cred = credentials.Certificate('your_firebase_credentials_path.json')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://smartbin-data-default-rtdb.firebaseio.com/'
+    'databaseURL': 'your_firebase_url'
 })
 # to obtain the fill duration
 def get_fillduration():
@@ -106,4 +106,4 @@ def update_graph(selected_day):
 if __name__ == '__main__':
     app.run_server(debug=True)
 
-# This simulation represents the fill-level of one Smart-Bin, further multiple Smart-Bin values can be simulated following the smae procedure that of S001
+# This simulation represents the fill-level of one Smart-Bin, further multiple Smart-Bin values can be simulated following the same procedure as that of Smart-bin S001

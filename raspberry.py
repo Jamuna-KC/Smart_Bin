@@ -5,7 +5,7 @@ import time
 import datetime as dt
 
 # url of the Firebase
-url='https://smartbin-data-default-rtdb.firebaseio.com/'
+url='your_firebase_url'
 firebase=firebase.FirebaseApplication(url)
 # setting up GPIO pins
 GPIO.setmode(GPIO.BCM)

@@ -1,0 +1,3 @@
+This project leverages IoT technology to provide real-time monitoring of various smart bins that are interconnected through a shared database. 
+It allows us to observe the fill levels of these smart bins and analyze when they become full. 
+This capability enables timely waste collection and disposal as soon as a bin reaches its capacity.
